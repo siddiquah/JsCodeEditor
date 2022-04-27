@@ -1,0 +1,47 @@
+body {
+    background-color: #263238;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-left: 1%;
+}
+
+.grid-container {
+    margin-left: 2%;
+    grid-gap: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: 50% 48%;
+}
+
+.code-area {
+    border: 1px solid #fff;
+}
+
+.code-area-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    text-align: center;
+    margin: 0;
+    border: 1px solid #000000;
+    border-radius: 2em;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin-right: 2%;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.head {
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 3vw;
+}
